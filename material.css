@@ -1,0 +1,39 @@
+
+#materials {
+    background-color: #BC9E82;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+    width: 300px;
+    margin-left: 30px;
+    box-shadow: 5px 5px 5px black;
+    color: white;
+    float: left;
+  }
+  .imge{
+    float: top;
+  
+  }
+
+  
+  #searchbar{
+    margin-left: 15%;
+    padding:15px;
+    border-radius: 10px;
+      font-family: 'Abril Fatface', cursive;
+      background-color: #BC9E82;
+      display: inline;
+  }
+  
+  input[type=text] {
+    width: 30%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+      font-family: 'Abril Fatface', cursive;
+  }
+  
+  input[type=text]:focus {
+    width: 70%;
+      font-family: 'Abril Fatface', cursive;
+  }
+  

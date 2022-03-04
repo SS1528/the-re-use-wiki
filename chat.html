@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reuse Wiki Chat</title>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Slabo+27px&display=swap" rel="stylesheet">
+ 
+<link rel="stylesheet" type="text/css" href="chat.css">
+<script src="chat.js"></script>
+</head>
+<body>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"> The Reuse Wiki </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li><a href="material.html"> Materials </a></li>
+            <li><a href="chat.html"> Re-Use Chat </a></li>
+            </ul>
+        </div>
+        </nav>
+<center>
+    <h1 class="header"> 
+       Trading Materials
+</h1>
+<h3 >Sell or Buy The Materials You Need</h3>
+
+    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+<br><Br>
+        <h4 >Add your name as your username and in the room name please add the material's name you want to sell </h4>
+        <hr>
+        <div class="form-group">
+          <label >User Name:</label>
+         <input type="text" id="user_name" class="form-control" placeholder="User Name">
+        </div>
+
+        <button id="login_button" class="btn btn-primary" onclick="addUser()">Log in</button>
+        <br><br><Br><Br>
+    </div>
+</center>
+
+</body>
+</html>
